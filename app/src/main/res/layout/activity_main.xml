@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="swe.sofolab.myaddtwonumber.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:padding="15dp"
+        android:text="welcome to Clculation sum number!"
+        android:background="#dd10a7"
+        android:id="@+id/textView2"
+   />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_below="@+id/textView2"
+       />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_centerVertical="true"
+      />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txtanswer"
+        />
+
+
+    <TextView
+        android:layout_width="150dp"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtanswer"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txtanswer2"
+        />
+
+    <TextView
+        android:layout_width="150dp"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtanswer2"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txtanswer3"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:padding="30dp"
+        android:id="@+id/clickbuttn"
+        android:layout_marginTop="50dp"
+        android:onClick="Addclick"
+        android:layout_below="@+id/txtanswer"
+        android:layout_marginLeft="130dp"
+        />
+
+
+
+
+</LinearLayout>
